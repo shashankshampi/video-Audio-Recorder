@@ -1,3 +1,9 @@
+/* *****************************
+   *  Design & Developed by    * 
+   *     shashank sanket       *               
+   *****************************
+*/
+
 let preview = document.getElementById("preview");
 let recording = document.getElementById("recording");
 let startButton = document.getElementById("startButton");
@@ -9,6 +15,7 @@ let recordingTimeMS = 10000;
 function log(msg) {
   logElement.innerHTML += msg + "\n";
 }
+
 function wait(delayInMS) {
   return new Promise(resolve => setTimeout(resolve, delayInMS));
 }
@@ -18,7 +25,7 @@ function startRecording(stream, lengthInMS) {
  
   recorder.ondataavailable = event => data.push(event.data);
   recorder.start();
-  log(recorder.state + " for " + (lengthInMS/1000) + " seconds...");
+  log(recorder.state + " for " + (lengthInMS/1000) + " seconds");
  
   let stopped = new Promise((resolve, reject) => {
     recorder.onstop = resolve;
@@ -54,10 +61,9 @@ startButton.addEventListener("click", function() {
     downloadButton.href = recording.src;
     downloadButton.download = "RecordedVideo.webm";
     
-    log("Successfully recorded " + recordedBlob.size + " bytes of " +
-        recordedBlob.type + " media.");
   })
   .catch(log);
-}, false);stopButton.addEventListener("click", function() {
+}, false);
+stopButton.addEventListener("click", function() {
   stop(preview.srcObject);
 }, false);
