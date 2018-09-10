@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>Audio & Video Cam Recorder</title>
+  	<link rel="stylesheet" href="style.css">
+  	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
 </head>
-<body>
+<body class="container">
 <header>
-  <h2>Video/Audio Recorder</h2>
+    <div class="inline-block">
+        <img src="img/meaww_logo.svg" alt="logo Img" class="imglogo">
+        <div class="title">
+            <h1> Shashank <strong> Sanket</strong> </h1>
+            <h3> Developer & Web Designer</h3>
+        </div>
+       
+    </div>
+    <div class="line"> 
+    </div>
 </header>
+    <div class="left">
+  	<div id="video-container">
+  		<h2>Live Cam</h2>
+ 	 	<video id="preview" width="400" height="300" autoplay muted></video>
+        </div>
+        <div id="startButton" class="button"> Start </div>
+        <div id="stopButton" class="button"> Stop </div>
+    </div>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-  	<div id="demo">
-   		 
-   	</div>
-    
-  </article>
-</section>
-
-
-
-
+    <div class="right">
+  	<div id="video-container">
+        	<h2>Recording</h2>
+  		<video id="recording" width="400" height="300" controls></video>
+  	</div>
+  	<a id="downloadButton" class="button"> Download </a>
+    </div>
+    <div class="bottom">
+ 	 <pre id="log"></pre>
+    </div>
 <footer>
-  <p>Footer</p>
+    <div>
+      <p>Designed by <strong>shashank sanket</strong></p>
+    </div>
 </footer>
-<script src="support.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
