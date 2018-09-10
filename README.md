@@ -1,4 +1,4 @@
-# video-Audio-Recorder
+# Video & Audio Recorder
 Requirement: Create a webpage which checks if the browser has access to camera and/or microphone, either external or internal. If it has, allow the user to record 5-10 second video/audio clip depending on the resources available and option to play it back. Else show that your machine does not have any camera and/or microphone attached.
 
 ## Installation and Launch
@@ -19,14 +19,14 @@ Screnshot of the webpage Interface.
 - HTML5
 - CSS3
 
-### Top Reatures 
+### Top Features 
 - Responsive design
 - Affordable to improve
 - Fast loading
 - Creative stylish look
 
 
-### Reference materials
+### Reference Materials
 - https://webrtc.github.io/samples/src/content/capture/video-video/
 - https://www.html5rocks.com/en/tutorials/getusermedia/intro/#toc-history
 - http://blog.teamtreehouse.com/accessing-the-device-camera-with-getusermedia
