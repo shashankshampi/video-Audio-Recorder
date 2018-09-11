@@ -20,6 +20,8 @@ Screnshot of the webpage Interface.
 - CSS3
 
 ### Top Features 
+- Live cam recording with audio
+- option to Download recorded video to local storage
 - Responsive design
 - Affordable to improve
 - Fast loading
