@@ -4,7 +4,7 @@ Requirement: Create a webpage which checks if the browser has access to camera a
 ## Installation and Launch
 
 1. To install the application clone this git repository from the above link.
-2. Go into the video-Audio-Recorder-master.zip folder and Extract the whole content then open index.html file in web browser.
+2. Go into the `video-Audio-Recorder-master.zip` folder and Extract the whole content to `video-Audio-Recorder-master` then open index.html file in web browser.
 3. Click on start button to initiate recording (set for 10s of recording).{ Allow camera and microphone permission }
 4. Click on download to save recorded clip on local storage or play online by clicking on the right video frame.
 
