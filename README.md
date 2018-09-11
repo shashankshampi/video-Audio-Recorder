@@ -9,7 +9,7 @@ Requirement: Create a webpage which checks if the browser has access to camera a
 4. Click on download to save recorded clip on local storage or play online by clicking on the right video frame.
 
 
-### Top Reatures 
+### WebPage Screenshot 
 Screnshot of the webpage Interface.
 ![1](https://user-images.githubusercontent.com/20582834/45315718-b7c6b980-b552-11e8-81f2-891ce5843db5.png)
 
